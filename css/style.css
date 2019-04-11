@@ -645,11 +645,42 @@
 }
 /*Responsive*/
 @media (min-width: 120px) and (max-width: 320px) {
+	#home{
+		width: 100%;
+		height: 670px;
+	}
+	.home h1{
+		font-size: 20px;
+		margin-top: -50px;
+	}
+	.snip1562 {
+		font-size: 18px;
+		margin: 15px 40px;
+		outline: none;
+		padding: 12px 10px 10px;
+	}
 	.brand-logo img{
 		width: 80%;
 	}
 	#wrap input[type="text"]:focus {
 		width: 150px;
+	}
+	.box-service .fas{
+		font-size: 5em;
+		color: #fff;
+	}
+	.body-konten p{
+		font-size: 14px;
+	}
+	.snip1434 {
+		padding: 0px 15px 0px 30px;
+		margin: 12px 0;
+		font-size: 18px;
+	}
+	.snip1434 i {
+		font-size: 2em;
+		width: 15px;
+		line-height: 50px;
 	}
 	#portofolio ul li a{
 		font-size: 12px;
@@ -670,11 +701,29 @@
 	}
 }
 @media (min-width: 321px) and (max-width: 576px) {
+	#home{
+		width: 100%;
+		height: 670px;
+	}
+	.home h1{
+		font-size: 20px;
+		margin-top: -50px;
+	}
+	.snip1562 {
+		font-size: 18px;
+		margin: 15px 40px;
+		outline: none;
+		padding: 12px 10px 10px;
+	}
 	.brand-logo img{
 		width: 70%;
 	}
 	#wrap input[type="text"]:focus {
 		width: 200px;
+	}
+	.box-service .fas{
+		font-size: 5em;
+		color: #fff;
 	}
 	.support{
 		margin: 0;
